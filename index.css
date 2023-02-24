@@ -1,0 +1,78 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(244, 234, 255);
+    text-align: center;
+}
+
+.head-text{
+    color: rgb(88, 49, 196);
+    font-weight: bold;
+    font-size: 52px;
+}
+
+img{
+    width: 300px;
+    /* height: 120px; */
+}
+
+.main-box{
+    background-color: rgb(122, 74, 218);
+    width: 600px;
+    margin: 40px auto 20px auto;
+    text-align: left;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+h3, h2, p{
+    color: rgb(248, 241, 255);
+}
+
+h3{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.emp{
+    font-weight: bold;
+}
+
+.highlight{
+    color: rgb(255, 237, 177);
+    border-left: 5px solid rgb(247, 209, 85);
+    padding-left: 10px;
+}
+
+
+
+a{
+    background-color: rgb(255, 237, 177);
+    color: rgb(36, 3, 102);
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    background-color: rgb(250, 201, 39);
+}
+
+p{
+    margin-left: 15px;
+}
+
+.footer{
+    color: rgb(131, 113, 149);
+}
+
+.foot{
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: rgb(250, 201, 39);
+    color: rgb(66, 51, 4);
+}
+
+.foot:hover{
+    background-color: rgb(255, 186, 58);
+}
